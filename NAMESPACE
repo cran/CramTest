@@ -1,0 +1,6 @@
+useDynLib(CramTest, .registration=TRUE)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
+importFrom("fExtremes", "pgpd")
+importFrom("stats", "uniroot")
+
